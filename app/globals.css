@@ -3,25 +3,77 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 40, 219, 20;
+    --background-end-rgb: 31, 108, 63;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 255, 255, 255;
+        --background-end-rgb: 31, 108, 63;
+    }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))
+        )
+        rgb(var(--background-start-rgb));
+}
+
+.kl-grid-item {
+    position: relative;
+    width: 100%; /* Prend toute la largeur sur mobile */
+    overflow: hidden;
+    margin: 10px 0; /* Modification de la marge pour mobile */
+
+    @media (min-width: 640px) {
+        /* Pour les écrans plus grands */
+        width: calc(20% - 20px);
+        margin: 25px;
+    }
+}
+
+.kl-grid-item .image {
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    
+    @media (max-width: 640px) {
+        height: 300px;
+    }
+    
+
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.paire {
+    height: 300px;
+    max-height: 75vh;
+}
+
+.description {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem; /* Réduction de la taille de police pour mobile */
+    text-align: center; /* Centré sur mobile */
+
+    @media (min-width: 640px) {
+        font-size: 1.4rem; /* Taille de police pour écran plus grand */
+        text-align: left; /* Alignement à gauche pour écran plus grand */
+    }
 }
