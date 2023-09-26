@@ -2,7 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Image from "next/image";
-
+import Navbar from "./components/navbar";
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -15,24 +16,12 @@ export default function RootLayout({
 }: {
     children: React.ReactNode;
 }) {
+    const isClient = typeof window !== "undefined";
+    const showNavbar = isClient ? window.location.pathname == "/" : false;
+
     return (
         <html lang="en">
-            <body className={inter.className}>
-                {/* <body className="flex flex-col min-h-screen p-4">
-                <div className="flex flex-col lg:flex-row items-center lg:items-start w-full h-full">
-                    {/* Logo */}
-                {/* <div className="mb-4 lg:mb-0 lg:mr-4 self-center lg:self-start">
-                        <Image
-                            src="/cog_logo.png"
-                            alt="Mon Logo"
-                            width={100}
-                            height={100}
-                        />
-                    </div> */}
-                {children}
-                {/* </div>
-            </body> */}
-            </body>
+            <body className={inter.className}>{children}</body>
         </html>
     );
 }
