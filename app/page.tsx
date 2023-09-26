@@ -38,8 +38,6 @@ export default function Home() {
         },
     ];
 
-    const isClient = typeof window !== "undefined";
-    const showNavbar = isClient ? window.location.pathname == "/" : false;
     return (
         <>
             <main className="flex flex-col min-h-screen p-4">
