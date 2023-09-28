@@ -14,7 +14,7 @@ export default function Navbar() {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Oursummit</span>
                         <div className="logo">
                             <Image
@@ -49,6 +49,24 @@ export default function Navbar() {
                     >
                         About
                     </a>
+                    <a
+                        href="/pages/notre-club"
+                        className="text-lg font-semibold leading-6 text-gray-900"
+                    >
+                        Jeunes
+                    </a>
+                    <a
+                        href="/pages/notre-club"
+                        className="text-lg font-semibold leading-6 text-gray-900"
+                    >
+                        Loisirs
+                    </a>
+                    <a
+                        href="/pages/notre-club"
+                        className="text-lg font-semibold leading-6 text-gray-900"
+                    >
+                        Partenaires
+                    </a>
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
             </nav>
@@ -62,10 +80,10 @@ export default function Navbar() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Oursummit</span>
+                            <span className="sr-only">COG Rugby</span>
                             <Image
                                 src="/cog_logo.png"
-                                alt="Mon Logo"
+                                alt="COG Rugby Logo"
                                 width={100}
                                 height={100}
                             />
@@ -93,6 +111,24 @@ export default function Navbar() {
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     About
+                                </a>
+                                <a
+                                    href="/pages/notre-club"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Les jeunes
+                                </a>
+                                <a
+                                    href="/pages/notre-club"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Les équipes loisirs
+                                </a>
+                                <a
+                                    href="/pages/notre-club"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Les partenaires
                                 </a>
                             </div>
                             <div className="py-6">
