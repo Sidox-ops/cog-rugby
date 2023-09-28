@@ -44,7 +44,7 @@ export default function Navbar() {
                         Home
                     </a>
                     <a
-                        href="/about"
+                        href="/pages/notre-club"
                         className="text-lg font-semibold leading-6 text-gray-900"
                     >
                         About
@@ -64,11 +64,10 @@ export default function Navbar() {
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Oursummit</span>
                             <Image
-                                src="/Oursummit_logo.svg"
-                                alt="Oursummit Logo"
-                                width={280}
-                                height={280}
-                                priority
+                                src="/cog_logo.png"
+                                alt="Mon Logo"
+                                width={100}
+                                height={100}
                             />
                         </a>
                         <button
@@ -84,13 +83,13 @@ export default function Navbar() {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
                                 <a
-                                    href="/home"
+                                    href="/"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Home
                                 </a>
                                 <a
-                                    href="/about"
+                                    href="/pages/notre-club"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     About
@@ -100,9 +99,7 @@ export default function Navbar() {
                                 <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
-                                    Log in
-                                </a>
+                                ></a>
                             </div>
                         </div>
                     </div>
