@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Section from "./components/Section";
 import Link from "next/link";
-import Navbar from "./components/navbar";
 export default function Home() {
     const _images = [
         {
