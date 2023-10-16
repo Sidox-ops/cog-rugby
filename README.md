@@ -8,7 +8,9 @@ Ce projet est un site web pour le club de rugby de Gargenville. Il est développ
 
 Développé bénévolement pour étayer mon portfolio et participer comme tout les bénévoles à la vie du club.
 
-## Getting Started
+Retrouvez le site en ligne à l'adresse suivante : [rugby-gargenville.fr](https://www.rugby-gargenville.fr/)
+
+## Développement
 
 First, run the development server:
 
