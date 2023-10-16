@@ -9,6 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "COG Rugby Gargenville",
     description: "Site de l'association COG Rugby Gargenville",
+    icons: {
+        icon: "/favicon.ico",
+        apple: "/cog_logo.png",
+    },
 };
 
 export default function RootLayout({
