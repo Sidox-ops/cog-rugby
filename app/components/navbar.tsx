@@ -50,7 +50,7 @@ export default function Navbar() {
                         About
                     </a>
                     <a
-                        href="/pages/notre-club"
+                        href="/pages/jeunes"
                         className="text-lg font-semibold leading-6 text-gray-900"
                     >
                         Jeunes
@@ -113,10 +113,10 @@ export default function Navbar() {
                                     About
                                 </a>
                                 <a
-                                    href="/pages/notre-club"
+                                    href="/pages/jeunes"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Les jeunes
+                                    Jeunes
                                 </a>
                                 <a
                                     href="/pages/notre-club"

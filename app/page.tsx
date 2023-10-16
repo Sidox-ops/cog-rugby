@@ -17,7 +17,7 @@ export default function Home() {
             className:
                 "image-container relative overflow-hidden rounded-2xl impaire",
             description: "Nos Équipes de Jeunes",
-            href: "/pages/notre-club",
+            href: "/pages/jeunes",
         },
         {
             src: "/cog_tribune.jpeg",
