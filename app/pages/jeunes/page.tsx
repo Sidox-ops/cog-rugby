@@ -28,13 +28,7 @@ export default function Jeunes() {
             </div>
             <div className="bg-white bg-opacity-50 backdrop-blur-md shadow-lg rounded-lg p-6 mb-6 transition-transform transform hover:scale-105">
                 <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
-                    <Image
-                        src={"/cog_baby.jpeg"}
-                        alt="Ovalie Seine"
-                        width={256}
-                        height={200}
-                        className="rounded-md mb-4 md:mb-0"
-                    />
+                    
                     <div>
                         <h2 className="text-xl text-gray-700 md:text-2xl font-semibold mb-4 leading-tight">
                             École de <span>Rugby labelisée</span>
@@ -66,6 +60,13 @@ export default function Jeunes() {
                             formation que nous offrons à nos jeunes joueurs.
                         </p>
                     </div>
+                    <Image
+                        src={"/cog_baby.jpeg"}
+                        alt="Ovalie Seine"
+                        width={256}
+                        height={200}
+                        className="rounded-md mb-4 md:mb-0"
+                    />
                 </div>
             </div>
         </div>

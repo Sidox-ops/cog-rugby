@@ -20,7 +20,7 @@ export default function Section({ children }: any) {
                 animate={inView ? "visible" : "hidden"}
                 variants={variants}
                 transition={{
-                    duration: 0.9,
+                    duration: 0.7,
                     ease: [0.17, 0.55, 0.55, 1],
                     delay: 0.5,
                 }}

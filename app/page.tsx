@@ -32,7 +32,7 @@ export default function Home() {
             alt: "Une équipe de baby rugby",
             className:
                 "image-container relative overflow-hidden rounded-2xl impaire",
-            description: "La vie du club",
+            description: "Partenaires",
             href: "/pages/notre-club",
         },
     ];
