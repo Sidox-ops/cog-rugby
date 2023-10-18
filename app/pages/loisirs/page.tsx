@@ -7,7 +7,7 @@ export default function Loisirs() {
             <div className="bg-white bg-opacity-50 backdrop-blur-md shadow-lg rounded-lg p-6 mb-6 transition-transform transform hover:scale-105">
                 <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
                     <div>
-                        <h2 className="text-2xl font-semibold mb-4 leading-tight">
+                        <h2 className="text-2xl text-gray-900 font-semibold mb-4 leading-tight">
                             Rugby à 5
                         </h2>
                         <p className="text-gray-700 text-sm leading-relaxed">
@@ -42,7 +42,7 @@ export default function Loisirs() {
                         className="rounded-md mb-4 md:mb-0"
                     />
                     <div>
-                        <h2 className="text-2xl font-semibold mb-4 leading-tight">
+                        <h2 className="text-2xl text-gray-900 font-semibold mb-4 leading-tight">
                             Equipe PAT XV + 35 ANS
                         </h2>
                         <p className="text-gray-700 text-sm leading-relaxed">

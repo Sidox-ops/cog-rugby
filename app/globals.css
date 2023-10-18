@@ -18,6 +18,12 @@
 
 body {
     color: rgb(var(--foreground-rgb));
+    background-color: rgb(
+        var(--background-start-rgb)
+    ); /* Couleur d'arrière-plan par défaut */
+}
+
+.gradient-background {
     min-height: 100vh;
     background: linear-gradient(
             to bottom,
@@ -115,8 +121,6 @@ body {
         flex-direction: row;
     }
 }
-
-
 
 .organigramme-scrollbar::-webkit-scrollbar-track {
     background: rgb(133, 205, 128); /* Couleur de fond de la piste */

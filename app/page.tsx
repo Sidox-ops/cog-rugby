@@ -25,7 +25,7 @@ export default function Home() {
             className:
                 "image-container relative overflow-hidden rounded-2xl impaire",
             description: "Les Équipes Loisirs",
-            href: "/pages/notre-club",
+            href: "/pages/loisirs",
         },
         {
             src: "/cog_baby.jpeg",
@@ -33,7 +33,7 @@ export default function Home() {
             className:
                 "image-container relative overflow-hidden rounded-2xl impaire",
             description: "Partenaires",
-            href: "/pages/notre-club",
+            href: "/pages/partenaires",
         },
     ];
 
