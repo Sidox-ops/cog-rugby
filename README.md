@@ -1,14 +1,17 @@
+
+
 ## Project COG Rugby Gargenville
-
 Découvrez le rugby à Gargenville avec le COG Rugby Gargenville.
-
-## Projet
 
 Ce projet est un site web pour le club de rugby de Gargenville. Il est développé avec [Next.js](https://nextjs.org/), un framework React.
 
 Développé bénévolement pour étayer mon portfolio et participer comme tout les bénévoles à la vie du club.
 
 Retrouvez le site en ligne à l'adresse suivante : [rugby-gargenville.fr](https://www.rugby-gargenville.fr/)
+
+## Une attention à la performance
+![Screenshot 2023-10-18 at 02 09 48](https://github.com/Sidox-ops/cog-rugby/assets/71758274/474d7c83-0831-485c-bc8b-b9e23efc470b)
+
 
 ## Développement
 
