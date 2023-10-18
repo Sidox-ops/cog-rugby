@@ -20,12 +20,22 @@ export default function Club() {
                             </a>
                         </p>
                         <p>
-                            <span className="font-semibold">Adresse :</span>{" "}
-                            1rue André Samitier, 78440 Gargenville
+                            <a
+                                className="hover:underline"
+                                href="https://www.google.fr/maps/place/1+rue+Andr%C3%A9+Samitier,+78440+Gargenville/@48.986088,1.8154518,17z/data=!3m1!4b1!4m6!3m5!1s0x47e694602358b015:0x1eb425d5eaab1bb5!8m2!3d48.9860845!4d1.8180267!16s%2Fg%2F11fst6s7zz?entry=ttu"
+                            >
+                                <span className="font-semibold">Adresse :</span>{" "}
+                                <span className="text-blue-500">
+                                    {" "}
+                                    1rue André Samitier, 78440 Gargenville
+                                </span>
+                            </a>
                         </p>
                         <p>
                             <span className="font-semibold">Email :</span>{" "}
-                            rugbygargenville@gmail.com
+                            <span className="text-blue-500">
+                                rugbygargenville@gmail.com
+                            </span>
                         </p>
                         <p>
                             <span className="font-semibold">Téléphone :</span>{" "}
