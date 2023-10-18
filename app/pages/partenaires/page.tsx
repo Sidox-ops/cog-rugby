@@ -69,12 +69,12 @@ export default function Partenaires() {
                                 <span>Restaurant Di Fer Ran</span>
                             </div>
                             <div className="flex flex-col items-center">
-                                {/* <Image
-                                    src="/path/to/perroux-logo.png"
+                                <Image
+                                    src="/logo/perroux_logo.svg"
                                     alt="Perroux Couverture Logo"
                                     width={64}
                                     height={64}
-                                /> */}
+                                />
                                 <span>Perroux Couverture</span>
                             </div>
                         </div>

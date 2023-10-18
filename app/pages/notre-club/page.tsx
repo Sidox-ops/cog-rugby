@@ -20,16 +20,16 @@ export default function Club() {
                             </a>
                         </p>
                         <p>
-                            <span className="font-semibold">Adresse :</span> 123
-                            Rue de la Victoire, Montagneville
+                            <span className="font-semibold">Adresse :</span>{" "}
+                            1rue André Samitier, 78440 Gargenville
                         </p>
                         <p>
                             <span className="font-semibold">Email :</span>{" "}
-                            contact@guerriersmontagne.rugby
+                            rugbygargenville@gmail.com
                         </p>
                         <p>
                             <span className="font-semibold">Téléphone :</span>{" "}
-                            01 23 45 67 89
+                            01 78 72 79 98
                         </p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ export default function Club() {
                         Un club ouvert sur le monde
                     </h3>
                     <p className="mt-4 text-lg text-gray-600">
-                        Le Club Olympique de Gargenville (COG) a enrichi son
+                        Le Club Omnisport de Gargenville (COG) a enrichi son
                         expérience et partagé sa passion pour le rugby à travers
                         plusieurs tournées internationales marquantes. En 1998,
                         le club a traversé les frontières pour se rendre en Côte

@@ -3,7 +3,9 @@ import Image from "next/image";
 export default function Organigramme() {
     return (
         <div className="container mx-auto px-4 py-6 space-y-8">
-            <h1 className="text-3xl text-gray-800 font-bold mb-6">Organigramme du Club</h1>
+            <h1 className="text-3xl text-gray-800 font-bold mb-6">
+                Organigramme du Club
+            </h1>
 
             <div className="space-y-6">
                 {/* Président */}
@@ -93,6 +95,29 @@ export default function Organigramme() {
                         email="lison.cornu@gmail.com"
                         phone=""
                         photoUrl="/profile/cog_lison.jpeg"
+                    />
+                    <Member
+                        name="Chris"
+                        role="Dirigente U14 Minimes"
+                        email="chris_78_64@hotmail.fr"
+                        phone=""
+                        photoUrl="/profile/cog_chris.jpeg"
+                    />
+
+                    <Member
+                        name="Mikaël DUTAY"
+                        role="Dirigeant PAT XV"
+                        email="mikael.dutay@orange.fr"
+                        phone=""
+                        photoUrl="/profile/cog_mikael.jpeg"
+                    />
+
+                    <Member
+                        name="Didier DURAND"
+                        role="Codirigeant PAT XV"
+                        email="didier.renata@hotmail.fr"
+                        phone=""
+                        photoUrl="/profile/cog_didier.jpeg"
                     />
                 </div>
             </div>
