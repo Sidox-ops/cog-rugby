@@ -47,7 +47,7 @@ export default function Navbar() {
                         href="/pages/notre-club"
                         className="text-lg font-semibold leading-6 text-gray-900"
                     >
-                        About
+                        Notre Club
                     </a>
                     <a
                         href="/pages/jeunes"
