@@ -5,7 +5,7 @@
 @layer base {
     :root {
         --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 40, 219, 20;
+        --background-start-rgb: 255, 255, 255;
         --background-end-rgb: 31, 108, 63;
     }
 
